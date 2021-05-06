@@ -22,22 +22,16 @@ public class PercolationStats {
         threshold = new double[trials];
         int randCol;
         int randRow;
-        double count = 0;
-
+        double count;
         for (int i = 0; i < trials; i++) {
             Percolation pc = new Percolation(n);
-            randCol = StdRandom.uniform(1, n + 1);
-            randRow = StdRandom.uniform(1, n + 1);
             while (!pc.percolates()) {
-                while (pc.isOpen(randRow, randCol)) {
-                    randCol = StdRandom.uniform(1, n + 1);
-                    randRow = StdRandom.uniform(1, n + 1);
-                }
+                randCol = StdRandom.uniform(1, n + 1);
+                randRow = StdRandom.uniform(1, n + 1);
                 pc.open(randRow, randCol);
-                count += 1;
             }
+            count = pc.numberOfOpenSites();
             threshold[i] = count / (n * n);
-            count = 0;
         }
     }
 

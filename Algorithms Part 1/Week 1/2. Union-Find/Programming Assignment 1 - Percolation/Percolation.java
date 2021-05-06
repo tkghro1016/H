@@ -9,7 +9,9 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
     private final boolean[] openList;
     private final int n;
+    private int sum = 0;
     private final WeightedQuickUnionUF uf;
+    private final WeightedQuickUnionUF ufFull;
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
@@ -18,6 +20,7 @@ public class Percolation {
         }
         this.n = n;
         this.uf = new WeightedQuickUnionUF(n * n + 2);
+        this.ufFull = new WeightedQuickUnionUF(n * n + 1);
         this.openList = new boolean[n * n + 2];
         openList[0] = true;
         openList[n * n + 1] = true;
@@ -30,6 +33,7 @@ public class Percolation {
         int middle = twoToOne(row, col);
         if (openList[middle]) return;
 
+        sum += 1;
         int left = middle - 1;
         int right = middle + 1;
         int up = middle - n;
@@ -39,24 +43,29 @@ public class Percolation {
         if (left > (row - 1) * n) {
             if (openList[left]) {
                 uf.union(left, middle);
+                ufFull.union(left, middle);
             }
         }
         if (right <= row * n) {
             if (openList[right]) {
                 uf.union(right, middle);
+                ufFull.union(right, middle);
             }
         }
         if (up > 0) {
             if (openList[up]) {
                 uf.union(up, middle);
+                ufFull.union(up, middle);
             }
         }
         else {
             uf.union(0, middle);
+            ufFull.union(0, middle);
         }
         if (down < n * n + 1) {
             if (openList[down]) {
                 uf.union(down, middle);
+                ufFull.union(down, middle);
             }
         }
         else {
@@ -73,18 +82,12 @@ public class Percolation {
     // is the site (row, col) full?
     public boolean isFull(int row, int col) {
         validate(row, col);
-        return (uf.find(twoToOne(row, col)) == uf.find(0));
+        return (ufFull.find(twoToOne(row, col)) == ufFull.find(0));
     }
 
     // returns the number of open sites
     public int numberOfOpenSites() {
-        int sum = 0;
-        for (int i = 0; i < openList.length; i++) {
-            if (openList[i]) {
-                sum += 1;
-            }
-        }
-        return sum - 2;
+        return sum;
     }
 
     // does the system percolate?
