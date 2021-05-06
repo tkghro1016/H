@@ -1,7 +1,7 @@
 /* *****************************************************************************
  *  Name:              Lee Ki Heun
  *  Coursera User ID:  tkghro1016@gmail.com
- *  Last modified:     May 5, 2021
+ *  Last modified:     May 06, 2021
  **************************************************************************** */
 
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
