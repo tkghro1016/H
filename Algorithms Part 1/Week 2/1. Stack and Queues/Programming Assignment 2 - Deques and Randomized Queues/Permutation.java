@@ -14,7 +14,7 @@ public class Permutation {
         int count = 0;
         // (k+1)번째 진입하려는 놈이 진입할 수 있는 확률 = 기존 놈이 남을 확률
         // queue에 모든 element를 저장한 후, 이를 뽑는 것을 생각해보면 각각의 element는 확률적으로 같다.
-        // 그러므로 새로운 item이 대기열에 포함되는 확률(= 기존 item이 queue에 남아 있을 확률)은 줄을 읽을 때마다 업데이트되어야합니다.(점화식)
+        // 그러므로 새로운 item이 대기열에 포함되는 확률(= 기존 item이 queue에 남아 있을 확률)은 줄을 읽을 때마다 업데이트 되어야 한다.(점화식)
         // the prob. that the (k+1)th element enqueue = the prob. that the enqueued elem. remain
         // If you think of storing all elements in the queue and then pulling one out, each element is probabilistically equal.
         // Therefore, the probability of a new item being enqueued should be updated every time a line is read. (recurrence relation)
