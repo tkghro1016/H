@@ -19,7 +19,7 @@ public class Permutation {
         // If you think of storing all elements in the queue and then pulling one out, each element is probabilistically equal.
         // Therefore, the probability of a new item being enqueued should be updated every time a line is read. (recurrence relation)
         // A(n-1){(1-A(n)) + A(n)*(k-1)/k} = A(n) <- Using Total Probability. Solve this simple equaion, we can find the recuurence relation.
-        double aN = (double) num / (num + 1);
+        double aN = (double) num / (num + 1); // first term
         if (num == 0) return;
 
         RandomizedQueue<String> rq = new RandomizedQueue<>();
