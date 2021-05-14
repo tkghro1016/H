@@ -18,6 +18,7 @@ public class Permutation {
         // the prob. that the (k+1)th element enqueue = the prob. that the enqueued elem. remain
         // If you think of storing all elements in the queue and then pulling one out, each element is probabilistically equal.
         // Therefore, the probability of a new item being enqueued should be updated every time a line is read. (recurrence relation)
+        // A(n-1){(1-A(n)) + A(n)*(k-1)/k} = A(n) <- Using Total Probability. Solve this simple equaion, we can find the recuurence relation.
         double aN = (double) num / (num + 1);
         if (num == 0) return;
 
