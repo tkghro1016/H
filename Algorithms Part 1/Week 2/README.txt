@@ -1,0 +1,1 @@
+I've solved bonus! :)
