@@ -14,6 +14,7 @@ public class BruteCollinearPoints {
         if (points == null) {
             throw new IllegalArgumentException();
         }
+        // input을 직접 가리키지 않게 복사
         pointList = new Point[points.length];
         for (int i = 0; i < points.length; i++) {
             if (points[i] == null) {
@@ -21,15 +22,15 @@ public class BruteCollinearPoints {
             }
             pointList[i] = points[i];
         }
-        int tail = pointList.length;
+
         LineSegment[] lineSegmentList = new LineSegment[4];
         int lineIndex = 0;
 
-        for (int i = 0; i < tail - 3; i++) {
+        for (int i = 0; i < pointList.length; i++) {
             double[] slopeList = new double[pointList.length - i - 1];
             // slope(i,j) 계산
-            for (int j = i + 1; j < tail; j++) {
-                if (pointList[i].equals(pointList[j])) {
+            for (int j = i + 1; j < pointList.length; j++) {
+                if (pointList[i].compareTo(pointList[j]) == 0) {
                     throw new IllegalArgumentException();
                 }
                 slopeList[j - i - 1] = pointList[i].slopeTo(pointList[j]);
@@ -64,6 +65,7 @@ public class BruteCollinearPoints {
 
     // the line segments
     public LineSegment[] segments() {
+        // 직접 변수를 조정할 수 없도록 복사
         LineSegment[] copy = new LineSegment[lineList.length];
         for (int i = 0; i < lineList.length; i++) {
             copy[i] = lineList[i];
@@ -113,5 +115,18 @@ public class BruteCollinearPoints {
             }
         }
         return minPoint;
+    }
+
+    public static void main(String[] args) {
+        Point p1 = new Point(1, 1);
+        Point p2 = new Point(2, 2);
+        Point p3 = new Point(3, 3);
+        Point p4 = new Point(4, 4);
+        Point p5 = new Point(3, 6);
+        Point p6 = new Point(3, 6);
+        Point[] points = { p1, p2, p3, p4, p5, p6 };
+        BruteCollinearPoints bcp = new BruteCollinearPoints(points);
+        LineSegment[] segList = bcp.segments();
+        System.out.println(segList[0].toString());
     }
 }
