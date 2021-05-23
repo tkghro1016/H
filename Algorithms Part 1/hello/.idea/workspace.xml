@@ -43,9 +43,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Permutation">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Deque" />
+  <component name="RunManager" selected="Application.BruteCollinearPoints">
+    <configuration name="BruteCollinearPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BruteCollinearPoints" />
       <module name="Algorithms, Part I" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,15 +58,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercolationStats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="Algorithms, Part I" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Permutation" />
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Point" />
       <module name="Algorithms, Part I" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BruteCollinearPoints" />
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Percolation" />
         <item itemvalue="Application.RandomizedQueue" />
-        <item itemvalue="Application.Deque" />
-        <item itemvalue="Application.PercolationStats" />
       </list>
     </recent_temporary>
   </component>
@@ -107,22 +107,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="280" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620538942274" />
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1620737807745">
+    <state x="552" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621771333132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620737807745" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1620737807745">
+    <state x="552" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621771333132" />
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1621770483421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620737807745" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1620737807745">
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621770483421" />
+    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1621770483420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620737807745" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1620737807745">
+    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621770483420" />
+    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1621770483420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620737807745" />
+    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621770483420" />
+    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1621770483420">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621770483420" />
     <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1620581765861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,9 +151,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="118" width="584" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620217372456" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1620580234428">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621765059869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1620580234428" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621765059869" />
   </component>
 </project>
