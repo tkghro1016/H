@@ -14,7 +14,7 @@ public class BruteCollinearPoints {
         if (points == null) {
             throw new IllegalArgumentException();
         }
-        // input을 직접 가리키지 않게 복사
+        // input을 바로 가리키지 않게 복사
         pointList = new Point[points.length];
         for (int i = 0; i < points.length; i++) {
             if (points[i] == null) {
@@ -65,7 +65,7 @@ public class BruteCollinearPoints {
 
     // the line segments
     public LineSegment[] segments() {
-        // 직접 변수를 조정할 수 없도록 복사
+        // 직접 변수가 노출 되지 않도록 복사
         LineSegment[] copy = new LineSegment[lineList.length];
         for (int i = 0; i < lineList.length; i++) {
             copy[i] = lineList[i];

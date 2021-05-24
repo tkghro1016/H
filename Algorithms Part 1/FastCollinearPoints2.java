@@ -24,7 +24,52 @@ public class FastCollinearPoints {
             pointList[i] = points[i];
         }
         sortByCoord();
-        mainFunc();
+
+        System.out.println("point list");
+        for (int q = 0; q < pointList.length; q++) {
+            System.out.print(pointList[q] + " ");
+        }
+        System.out.println("============");
+
+        int[][] map = new int[pointList.length][pointList.length];
+
+        for (int i = 0; i < pointList.length; i++) {
+            int[] orderPoints = new int[pointList.length - i - 1];
+            for (int j = i + 1; j < pointList.length; j++) {
+                if (pointList[i].compareTo(pointList[j]) == 0) {
+                    throw new IllegalArgumentException();
+                }
+                orderPoints[j - i - 1] = j;
+            }
+
+            sortBySlope(pointList[i], orderPoints);
+
+
+            for (int q = 0; q < orderPoints.length; q++) {
+                System.out.println(orderPoints[q]);
+            }
+            for (int q = 0; q < orderPoints.length; q++) {
+                System.out.print("slope: " + pointList[i].slopeTo(pointList[orderPoints[q]])
+                                         + " /// ");
+            }
+            System.out.println();
+            System.out.println("================");
+
+
+            for (int j = 0; j < orderPoints.length - 2; j++) {
+                for (int k = j + 2; k < orderPoints.length; k++) {
+                    if (pointList[i].slopeOrder().compare(pointList[orderPoints[j]],
+                                                          pointList[orderPoints[k]]) == 0) {
+                        map[i][orderPoints[k]] += 1;
+                        System.out.println("i: " + i + " K: " + k);
+                    }
+                    else {
+                        break;
+                    }
+                }
+            }
+        }
+        makeLineSegmentList(map);
     }
 
     // the number of line segments
@@ -108,7 +153,9 @@ public class FastCollinearPoints {
                 if (map[i][j] == 1) {
                     n += 1;
                 }
+                System.out.print(map[i][j] + " ");
             }
+            System.out.println();
         }
         lineList = new LineSegment[n];
         for (int i = 0; i < map.length; i++) {
@@ -120,32 +167,21 @@ public class FastCollinearPoints {
         }
     }
 
-    private void mainFunc() {
-        int[][] map = new int[pointList.length][pointList.length];
-
-        for (int i = 0; i < pointList.length; i++) {
-            int[] orderPoints = new int[pointList.length - i - 1];
-            for (int j = i + 1; j < pointList.length; j++) {
-                if (pointList[i].compareTo(pointList[j]) == 0) {
-                    throw new IllegalArgumentException();
-                }
-                orderPoints[j - i - 1] = j;
-            }
-
-            sortBySlope(pointList[i], orderPoints);
-
-            for (int j = 0; j < orderPoints.length - 2; j++) {
-                for (int k = j + 2; k < orderPoints.length; k++) {
-                    if (pointList[i].slopeOrder().compare(pointList[orderPoints[j]],
-                                                          pointList[orderPoints[k]]) == 0) {
-                        map[i][orderPoints[k]] += 1;
-                    }
-                    else {
-                        break;
-                    }
-                }
-            }
+    public static void main(String[] args) {
+        Point p1 = new Point(10000, 0);
+        Point p2 = new Point(0, 10000);
+        Point p3 = new Point(3000, 7000);
+        Point p4 = new Point(7000, 3000);
+        Point p5 = new Point(20000, 21000);
+        Point p6 = new Point(3000, 4000);
+        Point p7 = new Point(14000, 15000);
+        Point p8 = new Point(6000, 7000);
+        Point[] points = { p1, p2, p3, p4, p5, p6, p7, p8 };
+        FastCollinearPoints fcp = new FastCollinearPoints(points);
+        LineSegment[] segList = fcp.segments();
+        System.out.println("====Segment====");
+        for (int i = 0; i < segList.length; i++) {
+            System.out.println(segList[i].toString());
         }
-        makeLineSegmentList(map);
     }
 }
