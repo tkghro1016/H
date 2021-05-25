@@ -7,7 +7,6 @@
 public class FastCollinearPoints {
     private LineSegment[] lineList;
     private Point[] pointList;
-    private int lineIndex;
 
     // finds all line segments containing 4 or more points
     public FastCollinearPoints(Point[] points) {
@@ -24,11 +23,8 @@ public class FastCollinearPoints {
             }
             pointList[i] = points[i];
         }
-        lineList = new LineSegment[pointList.length];
-        lineIndex = 0;
         sortByCoord();
-        reFind();
-        segments();
+        mainFunc();
     }
 
     // the number of line segments
@@ -38,18 +34,14 @@ public class FastCollinearPoints {
 
     // the line segments
     public LineSegment[] segments() {
-        int n = 0;
         // 직접 변수가 노출 되지 않도록 복사
+        LineSegment[] copy = new LineSegment[lineList.length];
         for (int i = 0; i < lineList.length; i++) {
-            if (lineList[i] == null) break;
-            n += 1;
-        }
-        LineSegment[] copy = new LineSegment[n];
-        for (int i = 0; i < n; i++) {
             copy[i] = lineList[i];
         }
         return copy;
     }
+
 
     private void mergeByCoord(Point[] aux, int lo, int mid, int hi) {
         for (int k = lo; k <= hi; k++) {
@@ -77,6 +69,7 @@ public class FastCollinearPoints {
         Point[] aux = new Point[pointList.length];
         sortByCoord(aux, 0, pointList.length - 1);
     }
+
 
     private void mergeBySlope(Point source, int[] orderList, int[] aux, int lo, int mid,
                               int hi) {
@@ -107,64 +100,75 @@ public class FastCollinearPoints {
         sortBySlope(source, orderList, aux, 0, orderList.length - 1);
     }
 
-    private LineSegment[] resize(LineSegment[] lineSegmentList) {
-        int n = lineSegmentList.length;
-        LineSegment[] copy = new LineSegment[2 * n];
-        for (int i = 0; i < n; i++)
-            copy[i] = lineSegmentList[i];
-        return copy;
-    }
-
-    private void reFind() {
-        reFind(0, 0, Double.NEGATIVE_INFINITY, 0);
-    }
-
-    private void reFind(int root, int base, double baseSlope, int count) {
-        if (base > pointList.length - 2) return;
-        int[] orderPoints = new int[pointList.length - base - 1];
-        for (int j = base + 1; j < pointList.length; j++) {
-            if (pointList[base].compareTo(pointList[j]) == 0) {
-                throw new IllegalArgumentException();
+    private void makeLineSegmentList(int[][] map) {
+        int n = 0;
+        int lineIndex = 0;
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[i].length; j++) {
+                if (map[i][j] == 1) {
+                    n += 1;
+                }
+                System.out.print(map[i][j] + " ");
             }
-            orderPoints[j - base - 1] = j;
+            System.out.println();
         }
-        sortBySlope(pointList[base], orderPoints);
-        if (baseSlope < pointList[base].slopeTo(pointList[orderPoints[0]])) {
-            reFind(orderPoints[0], orderPoints[0], );
-        }
-        else if (baseSlope > pointList[base].slopeTo(pointList[orderPoints[0]])) {
-            if (count > 2) {
-                if (lineList.length == lineIndex) lineList = resize(lineList);
-                lineList[lineIndex++] = new LineSegment(pointList[root], pointList[orderPoints[0]]);
+        lineList = new LineSegment[n];
+        for (int i = 0; i < map.length; i++) {
+            for (int j = 0; j < map[i].length; j++) {
+                if (map[i][j] == 1) {
+                    lineList[lineIndex++] = new LineSegment(pointList[i], pointList[j]);
+                }
             }
         }
-        else {
-            System.out.println("base: " + pointList[base]);
-            count += 1;
-            reFind(root, orderPoints[0], baseSlope, count);
+    }
+
+    private void mainFunc() {
+        int[][] map = new int[pointList.length][pointList.length];
+
+        for (int i = 0; i < pointList.length; i++) {
+            int[] orderPoints = new int[pointList.length - i - 1];
+            for (int j = i + 1; j < pointList.length; j++) {
+                if (pointList[i].compareTo(pointList[j]) == 0) {
+                    throw new IllegalArgumentException();
+                }
+                orderPoints[j - i - 1] = j;
+            }
+
+            sortBySlope(pointList[i], orderPoints);
+
+            for (int j = 0; j < orderPoints.length - 2; j++) {
+                for (int k = j + 2; k < orderPoints.length; k++) {
+                    if (pointList[i].slopeOrder().compare(pointList[orderPoints[j]],
+                                                          pointList[orderPoints[k]]) == 0) {
+                        map[i][orderPoints[k]] += 1;
+                    }
+                    else {
+                        break;
+                    }
+                }
+            }
         }
+        makeLineSegmentList(map);
     }
 
     public static void main(String[] args) {
         Point p0 = new Point(0, 0);
-        Point p1 = new Point(-1, 1);
-        Point p2 = new Point(1, 1);
-        Point p3 = new Point(-2, 2);
-        Point p4 = new Point(2, 2);
-        Point p5 = new Point(-3, 3);
-        Point p6 = new Point(3, 3);
-        Point p7 = new Point(-4, 4);
-        Point p8 = new Point(4, 4);
-        Point p9 = new Point(5, 5);
-        Point p10 = new Point(6, 5);
-        Point p11 = new Point(7, 5);
-        Point p12 = new Point(8, 5);
-        Point[] point = { p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12 };
+        Point p6 = new Point(-1, 1);
+        Point p1 = new Point(1, 1);
+        Point p7 = new Point(-2, 2);
+        Point p2 = new Point(2, 2);
+        Point p8 = new Point(-3, 3);
+        Point p3 = new Point(3, 3);
+        Point p9 = new Point(-4, 4);
+        Point p4 = new Point(4, 4);
+        Point p5 = new Point(5, 5);
+        Point[] point = { p0, p1, p2, p3, p4, p5, p6, p7, p8, p9 };
         FastCollinearPoints fcp = new FastCollinearPoints(point);
         LineSegment[] line = fcp.segments();
         for (int i = 0; i < line.length; i++) {
             System.out.println(line[i]);
         }
+
     }
 
 
