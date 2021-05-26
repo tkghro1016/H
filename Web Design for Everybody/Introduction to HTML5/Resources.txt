@@ -1,0 +1,8 @@
+[ textbook ]
+https://learn.shayhowe.com/html-css/
+
+[ validate the code immediately ]
+http://www.w3schools.com/html/default.asp
+
+[ practice ]
+https://www.codecademy.com/learn
