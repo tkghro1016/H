@@ -6,3 +6,6 @@ http://www.w3schools.com/html/default.asp
 
 [ practice ]
 https://www.codecademy.com/learn
+
+[ font & icon ]
+https://fontawesom.com
