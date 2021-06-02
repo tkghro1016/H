@@ -111,22 +111,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621854525838" />
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1622651682417">
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom" timestamp="1622654331861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622651682417" />
-    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1622651682417">
+    <state width="1921" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622654331861" />
+    <state width="1921" height="298" key="GridCell.Tab.0.center" timestamp="1622654331861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622651682417" />
-    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1622651682417">
+    <state width="1921" height="298" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622654331861" />
+    <state width="1921" height="298" key="GridCell.Tab.0.left" timestamp="1622654331861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622651682417" />
-    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1622651682417">
+    <state width="1921" height="298" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622654331861" />
+    <state width="1921" height="298" key="GridCell.Tab.0.right" timestamp="1622654331861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622651682417" />
+    <state width="1921" height="298" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622654331861" />
     <state width="1921" height="368" key="GridCell.Tab.1.bottom" timestamp="1621870247746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,5 +159,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622635276739" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/.lift/algs4.jar!/edu/princeton/cs/algs4/MergeX.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

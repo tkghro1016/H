@@ -26,7 +26,7 @@ public class FastCollinearPoints {
         }
         index = 0;
         lineList = new LineSegment[pointList.length];
-        sortByCoord();
+        sortByCoord(pointList);
         mainFunc();
         lineList = segments();
     }
@@ -45,60 +45,67 @@ public class FastCollinearPoints {
         return copy;
     }
 
-    private void mergeByCoord(Point[] aux, int lo, int mid, int hi) {
-        for (int k = lo; k <= hi; k++) {
-            aux[k] = pointList[k];
-        }
-
+    private void mergeByCoord(Point[] points, Point[] aux, int lo, int mid, int hi) {
         int i = lo, j = mid + 1;
         for (int k = lo; k <= hi; k++) {
-            if (i > mid) pointList[k] = aux[j++];
-            else if (j > hi) pointList[k] = aux[i++];
-            else if (aux[i].compareTo(aux[j]) > 0) pointList[k] = aux[j++];
-            else pointList[k] = aux[i++];
+            if (i > mid) aux[k] = points[j++];
+            else if (j > hi) aux[k] = points[i++];
+            else if (points[i].compareTo(points[j]) > 0) aux[k] = points[j++];
+            else aux[k] = points[i++];
         }
     }
 
-    private void sortByCoord(Point[] aux, int lo, int hi) {
+    private void sortByCoord(Point[] points, Point[] aux, int lo, int hi) {
         if (hi <= lo) return;
         int mid = lo + (hi - lo) / 2;
-        sortByCoord(aux, lo, mid);
-        sortByCoord(aux, mid + 1, hi);
-        if (pointList[mid + 1].compareTo(pointList[mid]) > 0) return;
-        mergeByCoord(aux, lo, mid, hi);
+        sortByCoord(aux, points, lo, mid);
+        sortByCoord(aux, points, mid + 1, hi);
+        if (points[mid + 1].compareTo(points[mid]) > 0) {
+            for (int i = lo; i <= hi; i++) aux[i] = points[i];
+            return;
+        }
+        mergeByCoord(points, aux, lo, mid, hi);
     }
 
-    private void sortByCoord() {
+    private void sortByCoord(Point[] points) {
         Point[] aux = new Point[pointList.length];
-        sortByCoord(aux, 0, pointList.length - 1);
+        for (int i = 0; i < pointList.length; i++) {
+            aux[i] = pointList[i];
+        }
+        sortByCoord(aux, points, 0, pointList.length - 1);
     }
 
     private void mergeBySlope(Point source, Point[] orderList, Point[] aux, int lo, int mid,
                               int hi) {
-        for (int k = lo; k <= hi; k++)
-            aux[k] = orderList[k];
 
         int i = lo, j = mid + 1;
         for (int k = lo; k <= hi; k++) {
-            if (i > mid) orderList[k] = aux[j++];
-            else if (j > hi) orderList[k] = aux[i++];
-            else if (source.slopeOrder().compare(aux[i], aux[j]) > 0) orderList[k] = aux[j++];
-            else orderList[k] = aux[i++];
+            if (i > mid) aux[k] = orderList[j++];
+            else if (j > hi) aux[k] = orderList[i++];
+            else if (source.slopeOrder().compare(orderList[i], orderList[j]) > 0)
+                aux[k] = orderList[j++];
+            else aux[k] = orderList[i++];
         }
     }
 
     private void sortBySlope(Point source, Point[] orderList, Point[] aux, int lo, int hi) {
         if (hi <= lo) return;
         int mid = lo + (hi - lo) / 2;
-        sortBySlope(source, orderList, aux, lo, mid);
-        sortBySlope(source, orderList, aux, mid + 1, hi);
-        if (source.slopeOrder().compare(orderList[mid + 1], orderList[mid]) > 0) return;
+        sortBySlope(source, aux, orderList, lo, mid);
+        sortBySlope(source, aux, orderList, mid + 1, hi);
+        if (source.slopeOrder().compare(orderList[mid + 1], orderList[mid]) > 0) {
+            for (int i = lo; i <= hi; i++) aux[i] = orderList[i];
+            return;
+        }
         mergeBySlope(source, orderList, aux, lo, mid, hi);
     }
 
     private void sortBySlope(Point source, Point[] orderList) {
         Point[] aux = new Point[orderList.length];
-        sortBySlope(source, orderList, aux, 0, orderList.length - 1);
+        for (int i = 0; i < orderList.length; i++) {
+            aux[i] = orderList[i];
+        }
+        sortBySlope(source, aux, orderList, 0, orderList.length - 1);
     }
 
     private Point[] resize(Point[] oldArray) {
@@ -185,4 +192,6 @@ public class FastCollinearPoints {
         }
         return true;
     }
+
+
 }
