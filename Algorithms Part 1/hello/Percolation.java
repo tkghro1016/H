@@ -25,7 +25,7 @@ public class Percolation {
         openList = new boolean[n * n];
         withTop = new boolean[n * n];
         withBottom = new boolean[n * n];
-        percolate = false;
+        percolation = false;
     }
 
     // opens the site (row, col) if it is not open already
@@ -103,7 +103,7 @@ public class Percolation {
         withBottom[uf.find(middle)] = bottom;
         withTop[middle] = top;
         withBottom[middle] = bottom;
-        if (top && bottom) percolate = true;
+        if (top && bottom) percolation = true;
     }
 
     // is the site (row, col) open?
@@ -125,7 +125,7 @@ public class Percolation {
 
     // does the system percolate?
     public boolean percolates() {
-        return percolate;
+        return percolation;
     }
 
     private int twoToOne(int row, int col) {
