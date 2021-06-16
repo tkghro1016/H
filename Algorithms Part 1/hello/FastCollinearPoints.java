@@ -1,13 +1,13 @@
 /* *****************************************************************************
  *  Name:              Lee Ki Heun
  *  Coursera User ID:  tkghro1016@gmail.com
- *  Last modified:     May 23, 2021
+ *  Last modified:     June 16, 2021
  **************************************************************************** */
 
 import java.util.ArrayList;
 
 public class FastCollinearPoints {
-    private ArrayList<LineSegment> lineList;
+    private final ArrayList<LineSegment> lineList;
     private int lineIndex;
 
     // finds all line segments containing 4 or more points
@@ -102,6 +102,8 @@ public class FastCollinearPoints {
             int count = 0;
             for (int j = 1; j < slopeOrderList.length; j++) {
                 double currentSlope = pointList[i].slopeTo(slopeOrderList[j]);
+                if (currentSlope == Double.NEGATIVE_INFINITY)
+                    throw new IllegalArgumentException();
                 boolean skip = (pointList[i].compareTo(slopeOrderList[j]) > 0) || (
                         pointList[i].compareTo(slopeOrderList[j]) < 0
                                 && skipCriterionSlope == currentSlope);
@@ -127,7 +129,8 @@ public class FastCollinearPoints {
                             count += 1;
                         }
                         else {
-                            count = 0;
+                            count = 1;
+                            countCriterionSlope = currentSlope;
                         }
                     }
                 }

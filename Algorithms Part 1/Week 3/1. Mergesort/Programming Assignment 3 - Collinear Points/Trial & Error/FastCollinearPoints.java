@@ -28,7 +28,7 @@ public class FastCollinearPoints {
         lineList = new LineSegment[pointList.length];
         sortByCoord();
         mainFunc();
-        properSize();
+        lineList = segments();
     }
 
     // the number of line segments
@@ -43,14 +43,6 @@ public class FastCollinearPoints {
             copy[i] = lineList[i];
         }
         return copy;
-    }
-
-    private void properSize() {
-        LineSegment[] copy = new LineSegment[index];
-        for (int i = 0; i < index; i++) {
-            copy[i] = lineList[i];
-        }
-        lineList = copy;
     }
 
     private void mergeByCoord(Point[] aux, int lo, int mid, int hi) {
@@ -72,6 +64,7 @@ public class FastCollinearPoints {
         int mid = lo + (hi - lo) / 2;
         sortByCoord(aux, lo, mid);
         sortByCoord(aux, mid + 1, hi);
+        if (pointList[mid + 1].compareTo(pointList[mid]) > 0) return;
         mergeByCoord(aux, lo, mid, hi);
     }
 
@@ -99,6 +92,7 @@ public class FastCollinearPoints {
         int mid = lo + (hi - lo) / 2;
         sortBySlope(source, orderList, aux, lo, mid);
         sortBySlope(source, orderList, aux, mid + 1, hi);
+        if (source.slopeOrder().compare(orderList[mid + 1], orderList[mid]) > 0) return;
         mergeBySlope(source, orderList, aux, lo, mid, hi);
     }
 
@@ -145,48 +139,40 @@ public class FastCollinearPoints {
 
             sortBySlope(pointList[i], orderPoints);
 
-            for (int j = 0; j < orderPoints.length; j++) {
-                int depth = 0;
+            for (int j = 0; j < orderPoints.length - 2; j++) {
                 double baseSlope = pointList[i].slopeTo(orderPoints[j]);
                 for (int k = j + 1; k < orderPoints.length; k++) {
                     if (pointList[i].slopeTo(orderPoints[k]) != baseSlope) {
-                        if (depth > 1) {
+                        if (k - j > 2 && canIn(endPoint, slope, orderPoints[k - 1], baseSlope)) {
                             if (index == slope.length) {
                                 lineList = resize(lineList);
                                 endPoint = resize(endPoint);
                                 slope = resize(slope);
                             }
                             // 선분에 대한 정보(끝점, 기울기) 추가됨
-                            if (canIn(endPoint, slope, orderPoints[k - 1], baseSlope)) {
-                                lineList[index] = new LineSegment(pointList[i], orderPoints[k - 1]);
-                                endPoint[index] = orderPoints[k - 1];
-                                slope[index] = baseSlope;
-                                index += 1;
-                            }
+                            lineList[index] = new LineSegment(pointList[i], orderPoints[k - 1]);
+                            endPoint[index] = orderPoints[k - 1];
+                            slope[index] = baseSlope;
+                            index += 1;
                         }
                         j = k - 1;
                         break;
                     }
                     else if (pointList[i].slopeTo(orderPoints[k]) == baseSlope && k
                             == orderPoints.length - 1) {
-                        if (depth >= 1) {
+                        if (k - j > 1 && canIn(endPoint, slope, orderPoints[k], baseSlope)) {
                             if (index == slope.length) {
                                 lineList = resize(lineList);
                                 endPoint = resize(endPoint);
                                 slope = resize(slope);
                             }
-                            if (canIn(endPoint, slope, orderPoints[k], baseSlope)) {
-                                lineList[index] = new LineSegment(pointList[i], orderPoints[k]);
-                                endPoint[index] = orderPoints[k];
-                                slope[index] = baseSlope;
-                                index += 1;
-                            }
+                            lineList[index] = new LineSegment(pointList[i], orderPoints[k]);
+                            endPoint[index] = orderPoints[k];
+                            slope[index] = baseSlope;
+                            index += 1;
                         }
-                        j = k - 1;
+                        j = k;
                         break;
-                    }
-                    else {
-                        depth += 1;
                     }
                 }
             }
@@ -199,28 +185,4 @@ public class FastCollinearPoints {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        Point p0 = new Point(0, 0);
-        Point p1 = new Point(-1, 1);
-        Point p2 = new Point(1, 1);
-        Point p3 = new Point(-2, 2);
-        Point p4 = new Point(2, 2);
-        Point p5 = new Point(-3, 3);
-        Point p6 = new Point(3, 3);
-        Point p7 = new Point(-4, 4);
-        Point p8 = new Point(4, 4);
-        Point p10 = new Point(5, 5);
-        Point p9 = new Point(6, 5);
-        Point p11 = new Point(7, 5);
-        Point p12 = new Point(8, 5);
-        Point[] point = { p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12 };
-        FastCollinearPoints fcp = new FastCollinearPoints(point);
-        LineSegment[] line = fcp.segments();
-        for (int i = 0; i < line.length; i++) {
-            System.out.println(line[i]);
-        }
-    }
-
-
 }
