@@ -64,13 +64,12 @@ public class Board {
     public int manhattan() {
         int dist = 0;
         int[] index = new int[2];
-        int[] key = new int[2];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 if (board[i][j] == 0) continue;
                 index[0] = i;
                 index[1] = j + 1;
-                key = where(board[i][j]);
+                int[] key = where(board[i][j]);
                 dist += abs(index[0] - key[0]) + abs(index[1] - key[1]);
             }
         }
@@ -93,9 +92,23 @@ public class Board {
     // y가 not null & 동일 값 & 동일 class -> true
     public boolean equals(Object y) {
         if (y == null || this.getClass() != y.getClass()) return false;
-        else if (this == y || y.toString().equals(this.toString())) return true;
-        return false;
+        if (this == y) return true;
+
+        if (this.size != ((Board) y).size) return false;
+        for (int i = 0; i < this.size; i++) {
+            for (int j = 0; j < this.size; j++) {
+                if (this.board[i][j] != ((Board) y).board[i][j]) return false;
+            }
+        }
+        return true;
     }
+
+    // public boolean equals(Object y) {
+    //     if (y == null || this.getClass() != y.getClass()) return false;
+    //     else if (this == y || y.toString().equals(this.toString())) return true;
+    //     return false;
+    // }
+
 
     // all neighboring boards
     public Iterable<Board> neighbors() {
