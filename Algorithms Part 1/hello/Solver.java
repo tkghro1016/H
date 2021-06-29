@@ -6,39 +6,47 @@
 
 import edu.princeton.cs.algs4.MinPQ;
 
-import java.util.Iterator;
-
 public class Solver {
-    private MinPQ<Integer> boardPQ;
+
+    private boolean solvable;
+    private Board preBoard;
+
+    private MinPQ<Board> gameTree;
+    private MinPQ<Board> neighbors;
 
     // find a solution to the initial board (using the A* algorithm)
     public Solver(Board initial) {
-        boardPQ.insert(initial.manhattan());
+        if (initial == null) throw new IllegalArgumentException();
 
+        solvable = false;
+        preBoard = null;
+        gameTree = new MinPQ<Board>();
+        neighbors = new MinPQ<Board>();
 
     }
 
     // is the initial board solvable? (see below)
     public boolean isSolvable() {
-        return false;
+        return solvable;
     }
 
     // min number of moves to solve initial board; -1 if unsolvable
     public int moves() {
-        return 0;
+        if (!solvable) {
+            return -1;
+        }
+        else {
+            return 0;
+        }
     }
 
     // sequence of boards in a shortest solution; null if unsolvable
     public Iterable<Board> solution() {
-        return () -> new Iterator<Board>() {
-            public boolean hasNext() {
-                return false;
-            }
+        return gameTree;
+    }
 
-            public Board next() {
-                return null;
-            }
-        };
+    private void reculsiveSolution(Board current, Board parent) {
+
     }
 
     // test client (see below)

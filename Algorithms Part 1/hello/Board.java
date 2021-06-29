@@ -4,9 +4,8 @@
  *  Last modified:     June 21, 2021
  **************************************************************************** */
 
+import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdRandom;
-
-import java.util.Iterator;
 
 public class Board {
     private final int[][] board;
@@ -40,38 +39,6 @@ public class Board {
         }
         manhattan = dist;
     }
-
-    // Neighbor-Board Constructor
-    // private Board(Board preBoard, int[] source, int[] target) {
-    //     int[] sourceCord = source.clone();
-    //     int[] targetCord = target.clone();
-    //     int nextManhattan = preBoard.manhattan;
-    //     size = preBoard.size;
-    //     int[] targetProperCord = where(preBoard.board[targetCord[0]][targetCord[1]]);
-    //     board = exchange(preBoard.board, sourceCord, targetCord);
-    //
-    //     if (preBoard.board[sourceCord[0]][sourceCord[1]] == 0) {
-    //         zeroIndex = targetCord;
-    //         nextManhattan -= abs(targetCord[0] - targetProperCord[0]);
-    //         nextManhattan -= abs(targetCord[1] - targetProperCord[1]);
-    //         nextManhattan += abs(sourceCord[0] - targetProperCord[0]);
-    //         nextManhattan += abs(sourceCord[1] - targetProperCord[1]);
-    //     }
-    //     else {
-    //         zeroIndex = preBoard.zeroIndex;
-    //         int[] sourceProperCord = where(preBoard.board[sourceCord[0]][sourceCord[1]]);
-    //         nextManhattan -= abs(sourceCord[0] - sourceProperCord[0]);
-    //         nextManhattan -= abs(sourceCord[1] - sourceProperCord[1]);
-    //         nextManhattan -= abs(targetCord[0] - targetProperCord[0]);
-    //         nextManhattan -= abs(targetCord[1] - targetProperCord[1]);
-    //         nextManhattan += abs(sourceCord[0] - targetProperCord[0]);
-    //         nextManhattan += abs(sourceCord[1] - targetProperCord[1]);
-    //         nextManhattan += abs(targetCord[0] - sourceProperCord[0]);
-    //         nextManhattan += abs(targetCord[1] - sourceProperCord[1]);
-    //     }
-    //     manhattan = nextManhattan;
-    // }
-
 
     // string representation of this board
     public String toString() {
@@ -130,64 +97,26 @@ public class Board {
         return true;
     }
 
-    // public boolean equals(Object y) {
-    //     if (y == null || this.getClass() != y.getClass()) return false;
-    //     else if (this == y || y.toString().equals(this.toString())) return true;
-    //     return false;
-    // }
-
-    // private Board getOuter() {
-    //     return this;
-    // }
-
     // all neighboring boards
     public Iterable<Board> neighbors() {
-        return new IterableBoard();
-    }
-
-    private class IterableBoard implements Iterable<Board> {
-        public Iterator<Board> iterator() {
-            return new IteratorBoard();
+        Queue<Board> queBoard = new Queue<Board>();
+        if (zeroIndex[0] != 0) {
+            int[] target = { zeroIndex[0] - 1, zeroIndex[1] };
+            queBoard.enqueue(new Board(exchange(board, zeroIndex, target)));
         }
-    }
-
-    private class IteratorBoard implements Iterator<Board> {
-        private Board[] boards = new Board[4];
-        private int count = 0;
-        private int current = 0;
-
-        public IteratorBoard() {
-            if (zeroIndex[0] != 0) {
-                int[] target = { zeroIndex[0] - 1, zeroIndex[1] };
-                boards[count++] = new Board(exchange(board, zeroIndex, target));
-            }
-            if (zeroIndex[0] != size - 1) {
-                int[] target = { zeroIndex[0] + 1, zeroIndex[1] };
-                boards[count++] = new Board(exchange(board, zeroIndex, target));
-            }
-            if (zeroIndex[1] != 0) {
-                int[] target = { zeroIndex[0], zeroIndex[1] - 1 };
-                boards[count++] = new Board(exchange(board, zeroIndex, target));
-            }
-            if (zeroIndex[1] != size - 1) {
-                int[] target = { zeroIndex[0], zeroIndex[1] + 1 };
-                boards[count++] = new Board(exchange(board, zeroIndex, target));
-            }
+        if (zeroIndex[0] != size - 1) {
+            int[] target = { zeroIndex[0] + 1, zeroIndex[1] };
+            queBoard.enqueue(new Board(exchange(board, zeroIndex, target)));
         }
-
-        public boolean hasNext() {
-            if (current >= count) return false;
-            return true;
+        if (zeroIndex[1] != 0) {
+            int[] target = { zeroIndex[0], zeroIndex[1] - 1 };
+            queBoard.enqueue(new Board(exchange(board, zeroIndex, target)));
         }
-
-        public Board next() {
-            if (boards[current] == null) throw new java.util.NoSuchElementException();
-            return boards[current++];
+        if (zeroIndex[1] != size - 1) {
+            int[] target = { zeroIndex[0], zeroIndex[1] + 1 };
+            queBoard.enqueue(new Board(exchange(board, zeroIndex, target)));
         }
-
-        public void remove() {
-            throw new UnsupportedOperationException();
-        }
+        return queBoard;
     }
 
     // a board that is obtained by exchanging any pair of tiles
@@ -242,6 +171,7 @@ public class Board {
         copy[target[0]][target[1]] = tmp;
         return copy;
     }
+
 
     // unit testing (not graded)
     public static void main(String[] args) {
