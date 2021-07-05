@@ -1,55 +1,43 @@
 /* *****************************************************************************
- *  Name:              Ada Lovelace
- *  Coursera User ID:  123456
- *  Last modified:     October 16, 1842
+ *  Name:              Lee Ki Heun
+ *  Coursera User ID:  tkghro1016@gmail.com
+ *  Last modified:     June 21, 2021
  **************************************************************************** */
 
-
 import edu.princeton.cs.algs4.Queue;
-import edu.princeton.cs.algs4.StdRandom;
 
 public class Board {
-
-    private final int[] board;
+    private final int[][] board;
     private final int size;
-    private int source;
-    private int target;
-    private int zeroIndex;
+    private int rowZero;
+    private int colZero;
     private final int manhattan;
     private final int hamming;
-
 
     // create a board from an n-by-n array of tiles,
     // where tiles[row][col] = tile at (row, col)
     public Board(int[][] tiles) {
-        if (tiles == null) throw new NullPointerException();
-        if (tiles[0].length == 0) throw new NullPointerException();
-
         size = tiles.length;
-        board = new int[size * size];
+        board = new int[size][size];
 
         int manDist = 0;
         int hamDist = 0;
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                board[i * size + j] = tiles[i][j];
+                board[i][j] = tiles[i][j];
                 if (tiles[i][j] == 0) {
-                    zeroIndex = i * size + j;
+                    rowZero = i;
+                    colZero = j;
                 }
                 else {
-                    int[] properCord = where(tiles[i][j]);
+                    int[] properCord = where(board[i][j]);
                     manDist += abs(i - properCord[0]) + abs(j - properCord[1]);
-                    if (tiles[i][j] != i * size + j + 1) hamDist += 1;
+                    if (board[i][j] != i * size + j + 1) hamDist += 1;
                 }
             }
         }
         manhattan = manDist;
         hamming = hamDist;
-
-        do {
-            source = StdRandom.uniform(0, size * size);
-            target = StdRandom.uniform(0, size * size);
-        } while (source == target || source == zeroIndex || target == zeroIndex);
     }
 
     // string representation of this board
@@ -59,7 +47,7 @@ public class Board {
         for (int i = 0; i < size; i++) {
             buffer.append("\n");
             for (int j = 0; j < size; j++) {
-                buffer.append(" " + board[i * size + j] + " ");
+                buffer.append(" " + board[i][j] + " ");
             }
         }
         return buffer.toString();
@@ -86,14 +74,18 @@ public class Board {
     }
 
     // does this board equal y?
+    // y가 not null & 동일 값 & 동일 class -> true
     public boolean equals(Object y) {
         if (y == null || this.getClass() != y.getClass()) return false;
         if (this == y) return true;
 
         if (this.size != ((Board) y).size) return false;
-        if (this.zeroIndex != ((Board) y).zeroIndex) return false;
-        for (int i = 0; i < this.size * this.size; i++) {
-            if (this.board[i] != ((Board) y).board[i]) return false;
+        if (this.rowZero != ((Board) y).rowZero
+                || this.colZero != ((Board) y).colZero) return false;
+        for (int i = 0; i < this.size; i++) {
+            for (int j = 0; j < this.size; j++) {
+                if (this.board[i][j] != ((Board) y).board[i][j]) return false;
+            }
         }
         return true;
     }
@@ -101,41 +93,47 @@ public class Board {
     // all neighboring boards
     public Iterable<Board> neighbors() {
         Queue<Board> queBoard = new Queue<Board>();
-        // up, down, left, right
-        int[] cord = { zeroIndex / size, zeroIndex % size }; // row, col
-        if (cord[0] != 0) {
-            int up = (cord[0] - 1) * size + cord[1];
-            queBoard.enqueue(new Board(exchange(board, zeroIndex, up)));
+        if (rowZero != 0) {
+            exchange(rowZero, colZero, rowZero - 1, colZero);
+            queBoard.enqueue(new Board(board));
+            exchange(rowZero, colZero, rowZero - 1, colZero);
         }
-        if (cord[0] != size - 1) {
-            int down = (cord[0] + 1) * size + cord[1];
-            queBoard.enqueue(new Board(exchange(board, zeroIndex, down)));
+        if (rowZero != size - 1) {
+            exchange(rowZero, colZero, rowZero + 1, colZero);
+            queBoard.enqueue(new Board(board));
+            exchange(rowZero, colZero, rowZero + 1, colZero);
         }
-        if (cord[1] != 0) {
-            int left = cord[0] * size + cord[1] - 1;
-            queBoard.enqueue(new Board(exchange(board, zeroIndex, left)));
+        if (colZero != 0) {
+            exchange(rowZero, colZero, rowZero, colZero - 1);
+            queBoard.enqueue(new Board(board));
+            exchange(rowZero, colZero, rowZero, colZero - 1);
         }
-        if (cord[1] != size - 1) {
-            int right = cord[0] * size + cord[1] + 1;
-            queBoard.enqueue(new Board(exchange(board, zeroIndex, right)));
+        if (colZero != size - 1) {
+            exchange(rowZero, colZero, rowZero, colZero + 1);
+            queBoard.enqueue(new Board(board));
+            exchange(rowZero, colZero, rowZero, colZero + 1);
         }
         return queBoard;
     }
 
     // a board that is obtained by exchanging any pair of tiles
     public Board twin() {
-        exchange(source, target);
-        Board twin = new Board(board);
-        exchange(source, target);
-        return twin;
+        int rowSource = 0;
+        int colSource = 0;
+        if (board[0][0] == 0) colSource += 1;
+
+        int rowTarget = 1;
+        int colTarget = 0;
+        if (board[1][0] == 0) colTarget += 1;
+
+        exchange(rowSource, colSource, rowTarget, colTarget);
+        Board brd = new Board(board);
+        exchange(rowSource, colSource, rowTarget, colTarget);
+        return brd;
     }
 
-    private void exchange(int exchSource, int exchTarget) {
-        int tmp = board[exchSource];
-        board[exchSource] = board[exchTarget];
-        board[exchTarget] = tmp;
-    }
-
+    // return {rowIndex, colIndex};
+    // row: start with 0, end with size-1; col: start with 0, end with size - 1;
     private int[] where(int num) {
         int row = num / size;
         int col = num % size - 1;
@@ -156,17 +154,61 @@ public class Board {
         }
     }
 
+    private void exchange(int sourceRow, int sourceCol, int targetRow, int targetCol) {
+        int tmp = board[sourceRow][sourceCol];
+        board[sourceRow][sourceCol] = board[targetRow][targetCol];
+        board[targetRow][targetCol] = tmp;
+    }
+
     // unit testing (not graded)
     public static void main(String[] args) {
-        int[][] tst = { { 1, 3, 4 }, { 5, 6, 2 }, { 0, 8, 7 } };
-        Board bst = new Board(tst);
-        System.out.println(bst);
-        System.out.println(bst.twin());
-        for (Board brd : bst.neighbors()) {
-            System.out.println("========");
+        // int[][] tst = new int[][] { { 2, 3, 4 }, { 5, 6, 1 }, { 0, 8, 7 } };
+        // int[][] tst1 = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } };
+        // int[][] tst2 = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } };
+        // int[][] tst3 = new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 8, 0, 7 } };
+        // Board bst = new Board(tst);
+        // Board bst1 = new Board(tst1);
+        // Board bst2 = new Board(tst2);
+        // Board bst3 = new Board(tst3);
+        // System.out.println(bst);
+        // System.out.println(bst4);
+        // System.out.println(bst3);
+
+        // System.out.println(bst.dimension());
+        // System.out.println(bst.hamming());
+        // System.out.println(bst1.hamming());
+
+        // System.out.println(bst.isGoal());
+        // System.out.println(bst1.isGoal());
+
+        // System.out.println(bst.equals(bst1));
+        // System.out.println(bst2.equals(bst1));
+        // System.out.println(bst1.equals(bst1));
+
+        // System.out.println(bst1.twin());
+        // System.out.println(bst1);
+
+        int[][] tst4 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 0 } };
+        Board bst4 = new Board(tst4);
+        System.out.println(bst4);
+        System.out.println(bst4.manhattan());
+        for (Board brd : bst4.neighbors()) {
+            System.out.println("=========");
             System.out.println(brd);
-            System.out.println("========");
+            System.out.println(brd.manhattan());
         }
+        System.out.println(bst4);
+        System.out.println("***************");
+        Board bst4Twin = bst4.twin();
+        System.out.println(bst4Twin);
+        System.out.println(bst4Twin.manhattan());
+        for (Board brd : bst4Twin.neighbors()) {
+            System.out.println("=========");
+            System.out.println(brd);
+            System.out.println(brd.manhattan());
+        }
+        Board bst4Twin2 = bst4.twin();
+        System.out.println(bst4Twin2);
     }
 
 }
