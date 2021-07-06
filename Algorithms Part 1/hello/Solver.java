@@ -6,48 +6,80 @@
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.MinPQ;
+import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdOut;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-
 public class Solver {
-    private ArrayList<Board> gameTree;
+    private final Stack<Board> gameTree;
     private int moveCount;
-    private boolean solvable;
 
     // find a solution to the initial board (using the A* algorithm)
     public Solver(Board initial) {
-        if (initial == null) throw new NullPointerException();
+        if (initial == null) throw new IllegalArgumentException();
 
-        gameTree = new ArrayList<Board>();
-        moveCount = 0;
-        solvable = true;
+        gameTree = new Stack<Board>();
 
-        gameTree.add(initial);
+        MinPQ<Node> nodeList = new MinPQ<Node>();
+        MinPQ<Node> twinNodeList = new MinPQ<Node>();
 
-        if (initial.isGoal()) {
-            solvable = true;
+        Node crtNode = new Node(null, initial, 0);
+        Node crtTwinNode = new Node(null, initial.twin(), 0);
+
+        nodeList.insert(crtNode);
+        twinNodeList.insert(crtTwinNode);
+
+        while (nodeList.min() != null) {
+            for (Board neighbor : crtNode.currentBrd.neighbors()) {
+                if (crtNode.prevNode == null) {
+                    Node tmpNode = new Node(crtNode, neighbor, crtNode.moves + 1);
+                    nodeList.insert(tmpNode);
+                }
+                else {
+                    if (neighbor.equals(crtNode.prevNode.currentBrd)) continue;
+                    Node tmpNode = new Node(crtNode, neighbor, crtNode.moves + 1);
+                    nodeList.insert(tmpNode);
+                }
+            }
+
+            for (Board twinNghbr : crtTwinNode.currentBrd.neighbors()) {
+                if (crtTwinNode.prevNode == null) {
+                    Node tmpNode = new Node(crtTwinNode, twinNghbr, crtTwinNode.moves + 1);
+                    twinNodeList.insert(tmpNode);
+                }
+                else {
+                    if (twinNghbr.equals(crtTwinNode.prevNode.currentBrd)) continue;
+                    Node tmpNode = new Node(crtTwinNode, twinNghbr, crtTwinNode.moves + 1);
+                    twinNodeList.insert(tmpNode);
+                }
+            }
+
+            crtNode = nodeList.delMin();
+            crtTwinNode = twinNodeList.delMin();
+
+            if (crtNode.currentBrd.isGoal()) {
+                moveCount = crtNode.moves;
+                while (crtNode != null) {
+                    gameTree.push(crtNode.currentBrd);
+                    crtNode = crtNode.prevNode;
+                }
+                break;
+            }
+
+            if (crtTwinNode.currentBrd.isGoal()) {
+                moveCount = -1;
+                break;
+            }
         }
-        else {
-            solve(initial);
-        }
-
     }
 
     // is the initial board solvable? (see below)
     public boolean isSolvable() {
-        return solvable;
+        return moveCount != -1;
     }
 
     // min number of moves to solve initial board; -1 if unsolvable
     public int moves() {
-        if (solvable) {
-            return moveCount;
-        }
-        else {
-            return -1;
-        }
+        return moveCount;
     }
 
     // sequence of boards in a shortest solution; null if unsolvable
@@ -55,30 +87,40 @@ public class Solver {
         return gameTree;
     }
 
-    private class ComparatorBoard implements Comparator<Board> {
-        public int compare(Board o1, Board o2) {
-            return Integer.compare(o1.manhattan(), o2.manhattan());
-        }
-    }
+    private class Node implements Comparable<Node> {
 
-    private void solve(Board root) {
-        ComparatorBoard cmpBoard = new ComparatorBoard();
-        Board preBoard = null;
-        Board current = root;
-        while (solvable && !current.isGoal()) {
-            MinPQ<Board> neighbors = new MinPQ<Board>(cmpBoard);
-            for (Board neighbor : current.neighbors()) {
-                if (neighbor.equals(preBoard)) continue;
-                neighbors.insert(neighbor);
+        public Board currentBrd;
+        public Node prevNode;
+        public int manhattan;
+        public int moves;
+        public int priority;
+
+        public Node(Node prevNode, Board currentBrd, int currentMove) {
+            this.prevNode = prevNode;
+            this.currentBrd = currentBrd;
+            manhattan = currentBrd.manhattan();
+            moves = currentMove;
+            priority = manhattan + moves;
+        }
+
+        public int compareTo(Node cmpNode) {
+            if (this.priority > cmpNode.priority) {
+                return 1;
             }
-            preBoard = current;
-            current = neighbors.delMin();
-            if (preBoard.manhattan() < current.manhattan()) {
-                solvable = false;
-                break;
+            else if (this.priority < cmpNode.priority) {
+                return -1;
             }
-            gameTree.add(current);
-            moveCount += 1;
+            else { // this와 cmpNode가 같은priority를 가질 때
+                if (this.moves > cmpNode.moves) { // this가 cmpNode보다 자식노드이면 this가 작은 것.
+                    return -1;
+                }
+                else if (this.moves < cmpNode.moves) {
+                    return 1;
+                }
+                else {
+                    return 0;
+                }
+            }
         }
     }
 
@@ -104,5 +146,12 @@ public class Solver {
             for (Board board : solver.solution())
                 StdOut.println(board);
         }
+
+        // int[][] tst = { { 2, 3, 4 }, { 5, 6, 1 }, { 0, 8, 7 } };
+        // Board bst = new Board(tst);
+        // Solver slv = new Solver(bst);
+        // for (Board brd : slv.solution()) {
+        //     System.out.println(brd);
+        // }
     }
 }
