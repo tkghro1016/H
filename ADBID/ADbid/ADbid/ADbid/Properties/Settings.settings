@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ADbid.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dirText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\E1-10990K-4\workspace\adbid_winapp</Value>
+    </Setting>
+    <Setting Name="dirPython" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\E1-10990K-4\AppData\Local\Programs\Python\Python39\python.exe</Value>
+    </Setting>
+    <Setting Name="dirPyWork" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\E1-10990K-4\workspace\adbid_winapp\PyProcessWorker.py</Value>
+    </Setting>
+    <Setting Name="dirIcon" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\ADBID_128.ico</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

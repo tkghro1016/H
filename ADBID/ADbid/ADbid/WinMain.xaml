@@ -1,0 +1,459 @@
+﻿<Window x:Class="ADbid.WinMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADbid"
+        mc:Ignorable="d"
+        Style="{DynamicResource StyWIndow}"
+        Title="" Height="720" Width="1060"
+        ResizeMode="NoResize"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        KeyDown="Window_PreviewKeyDown"
+        WindowStartupLocation ="Manual" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseLeftButtonUp="Window_MouseLeftButtonUp" HorizontalContentAlignment="Stretch" HorizontalAlignment="Center" VerticalAlignment="Center" VerticalContentAlignment="Stretch" MinWidth="1040" MinHeight="700" Loaded="Window_Loaded" Activated="Window_Activated" SizeChanged="Window_SizeChanged">
+    <!--<Grid x:Name="OuterGrid" Margin="20">-->
+    <!--<Grid.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Quality" ShadowDepth="2"/>
+        </Grid.Effect>-->
+    <Border x:Name="MainOuterBorder" BorderThickness="10" CornerRadius="5" Width="1040" Height="700" Background="White">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" Direction="315" Opacity="0.5" RenderingBias="Quality" ShadowDepth="2"/>
+        </Border.Effect>
+        <Border.BorderBrush>
+            <ImageBrush ImageSource="Resources/images/main/background.png" />
+        </Border.BorderBrush>
+        <DockPanel x:Name="MainInnerPanel" Margin="0,-10">
+            <!-- 맨 위에 타이틀바 -->
+
+            <!-- 맨 위에 타이틀바 -->
+            <Border x:Name="BtdtitleBar" DockPanel.Dock="Top" Style="{DynamicResource StyTitleBar}" Height="54" Background="#FF4C5D6B" BorderBrush="#FF677581" BorderThickness="0,0,0,1">
+                <DockPanel>
+                    <Button x:Name="btnMainClose" Click="BtnMainClose_Click" Style="{DynamicResource StyBtnClose}" BorderBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" Margin="0,0,5,0" Width="15" Height="15" />
+                    <Button x:Name="btnToMax" Click="BtnToMax_Click" Style="{DynamicResource StyBtnMax}" RenderTransformOrigin="0.5,0.5" Width="15" Height="15" Margin="0,0,8,0" >
+                        <Image Height="12" Source="Maximize.png" Stretch="Fill" Width="12"/>
+                    </Button>
+                    <Button x:Name="BtnToMini" Click="BtnToMini_Click" Style="{DynamicResource StyBtnMin}" Width="15" Height="15" Margin="0,0,8,0" />
+                    <Button x:Name="BtnLogin" Style="{StaticResource StyleBtnLogout}" Click="BtnLogin_Click"  VerticalAlignment="Stretch" Width="65" FontWeight="Bold" HorizontalAlignment="Center" Height="24" DockPanel.Dock="Right" Margin="0,0,10,0" />
+                    <Button x:Name="BtnAppService" Style="{StaticResource BtnAppService}" Width="40" FontWeight="Bold" VerticalContentAlignment="Center" Click="BtnAppService_Click" HorizontalAlignment="Center" DockPanel.Dock="Right" RenderTransformOrigin="0.5,0.5" Margin="10,0,5,0" Height="24" />
+                    <Label x:Name="LblServiceDate" Content="서비스 종료일 2021-01-10 12:30:24 (1,000일 남음)" HorizontalAlignment="Right" DockPanel.Dock="Right" VerticalAlignment="Center" Foreground="White" RenderTransformOrigin="0.5,0.5" />
+                    <Label HorizontalAlignment="Center" DockPanel.Dock="Right" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" >
+                        <Image Height="11" Source="bar.png" Stretch="Fill" Width="12"/>
+                    </Label>
+                    <Label x:Name="LblUsrID" Content="TxtUserId" Width="Auto" VerticalAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" DockPanel.Dock="Right" Foreground="White" />
+                    <Label DockPanel.Dock="Right" VerticalAlignment="Center" HorizontalAlignment="Right" Width="23" Height="23">
+                        <Image Height="13" Width="13" Source="user.png" Stretch="Fill"/>
+                    </Label>
+                    <!--<Button x:Name="BtnLogo" Style="{DynamicResource StyBtnClose}" HorizontalContentAlignment="Center" HorizontalAlignment="Left" DockPanel.Dock="Left" Click="BtnLogo_Click" RenderTransformOrigin="0.5,0.5"  >-->
+                    <Button x:Name="BtnLogo" HorizontalContentAlignment="Center" HorizontalAlignment="Left" DockPanel.Dock="Left" Click="BtnLogo_Click" RenderTransformOrigin="0.5,0.5" Margin="5,0,0,0" >
+                        <Image Height="31" Source="logo.png" Stretch="Fill" Width="31" RenderTransformOrigin="0.5,0.5"/>
+                    </Button>
+                    <Label Content="애드비드" Height="Auto" Width="Auto" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" />
+                    <Label x:Name="LblAppVer" Content="네이버 검색광고 자동 입찰 - 애드비드 Ver.1.2.231" VerticalAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="11" Width="Auto" Margin="0,8,0,0" />
+                </DockPanel>
+            </Border>
+
+            <!-- Sub 타이틀바(환경설정 등..) -->
+            <Border x:Name="Brd" DockPanel.Dock="Top" Height="55">
+                <DockPanel Background="#FF4C5D6B">
+                    <Button x:Name="BtnAutoBidState" Style="{StaticResource ResourceKey=StyleBtnStartAutoBid}" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="33" Background="{x:Null}" BorderBrush="{x:Null}" FontWeight="Bold" Margin="5,0,0,0" Click="BtnAutoBidState_Click" Foreground="#FF004AF9" RenderTransformOrigin="0.5,0.5"/>
+                    <Button x:Name="BtnSetting" Style="{StaticResource StyleSettingBtn}" Click="BtnSetting_Click" Width="35" Height="35" HorizontalAlignment="Right" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0,0,5,0" DockPanel.Dock="Right" RenderTransformOrigin="0.5,0.5" />
+
+                    <Label x:Name="LblNaverInfo" DockPanel.Dock="Right" Content="testtest1234 (비즈머니 1,000,000,000원)" HorizontalAlignment="Right" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Foreground="White" Margin="0,0,15,0" FontSize="13" Background="#00000000" Padding="0,5,5,5"/>
+                    <Label x:Name="lblbarImg" HorizontalAlignment="Center" DockPanel.Dock="Right" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Margin="0" >
+                        <Image Height="11" Source="bar.png" Stretch="Fill" Width="12"/>
+                    </Label>
+                    <Label x:Name="LblNaverInfo2" DockPanel.Dock="Right" Content="네이버 계정" HorizontalAlignment="Right" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Foreground="White" Margin="0" FontSize="13" Background="#00000000" Padding="5,5,0,5"/>
+                    <Label DockPanel.Dock="Right" VerticalAlignment="Center" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5">
+                        <Image x:Name="ImgNaver" Height="15" Source="naver.png" Stretch="Fill" Width="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Label>
+                    <DockPanel Width="Auto" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="PnlAutoBidState" Visibility="Hidden" Margin="10,0,0,0">
+                        <Image Source="/Resources/images/main/Exclamation.png" Width="16" Height="16" Margin="0,12.5"/>
+                        <Label x:Name="LblAutoBidState" Content="전체 키워드 000개 중 000개 자동 입찰 중" Height="40" VerticalAlignment="Center" HorizontalAlignment="Left" VerticalContentAlignment="Center" Width="238.48" Foreground="#FFB9C8D4" />
+                    </DockPanel>
+                </DockPanel>
+            </Border>
+            <Border x:Name="subTitleBar" DockPanel.Dock="Top" Height="56">
+                <DockPanel Background="White">
+                    <Button x:Name="BtnBatch" Click="BtnBatch_Click" Height="33" Width="90" HorizontalAlignment="Center" FontWeight="Bold" Padding="0" Margin="5,0,0,0" Background="{x:Null}" BorderBrush="Transparent" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        <Image Height="33" Source="select_change.png" Stretch="Fill" Width="90"/>
+                    </Button>
+                    <ComboBox x:Name="CboSelected" Height="33" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0" BorderBrush="{x:Null}" Foreground="Black" Background="{x:Null}"
+                          DisplayMemberPath="CmpAndGrpName" SelectedValuePath="nccAdgroupId" DropDownOpened="CboSelected_DropDownOpened" IsTextSearchEnabled="False"
+                          IsEditable="True" IsReadOnly="True" Text="캠페인 광고그룹" SelectionChanged="CboSelected_SelectionChanged" Padding="3,0,0,0" UseLayoutRounding="True" VerticalContentAlignment="Center" Width="144" RenderTransformOrigin="0.5,0.5">
+                    </ComboBox>
+                    <Button x:Name="BtnRefresh" Click="BtnRefresh_Click" Width="33" HorizontalAlignment="Left" Margin="5,0,0,0" Background="{x:Null}" BorderBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" Height="33">
+                        <Image Height="33" Source="f5.png" Stretch="Fill" Width="33"/>
+                    </Button>
+                    
+                    <TextBox x:Name="TbxKeyWord" Height="33" TextWrapping="Wrap" VerticalAlignment="Center" Width="235" DockPanel.Dock="Right" HorizontalAlignment="Right" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Margin="0,0,5,0" KeyDown="TbxKeyWord_KeyDown" TextChanged="TbxKeyWord_TextChanged" RenderTransformOrigin="0.5,0.5" Padding="30,0,0,0"/>
+                    <Button Height="25" VerticalAlignment="Center" Width="25" DockPanel.Dock="Right" HorizontalAlignment="Right" Click="BtnFilter_Click" RenderTransformOrigin="0.5,0.5" Margin="0,0,-30,0">
+                        <Image Height="16" Source="search_icon.png" Stretch="Fill" Width="16"/>
+                    </Button>
+                    <Label x:Name="LblSearchKeyword" DockPanel.Dock="Right" Padding="0" Content="키워드가 없습니다." HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Margin="0,0,15,0" VerticalAlignment="Center" Height="32" Canvas.Left="0" Canvas.Top="0" Panel.ZIndex="2" HorizontalAlignment="Right" Width="425"/>
+                </DockPanel>
+            </Border>
+
+            <Grid DockPanel.Dock="Top" x:Name="MainDataGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="94*"/>
+                    <ColumnDefinition Width="405*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="32" MaxHeight="32" MinHeight="32"/>
+                </Grid.RowDefinitions>
+
+                <Border Grid.RowSpan="3"/>
+                <Canvas x:Name="InfoCanvas" Grid.ColumnSpan="2">
+                    <!--                                                                  여기서부터 리스트 뷰                                                    -->
+                    <DataGrid  x:Name="MainDataView" ItemsSource="{Binding items}" AutoGenerateColumns="False" HorizontalGridLinesBrush="LightGray" GridLinesVisibility="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="{Binding ActualWidth, ElementName=InfoCanvas}"
+            Height="{Binding ActualHeight, ElementName=InfoCanvas}" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" IsReadOnly="True" Margin="0" HeadersVisibility="Column" Canvas.Left="0" Canvas.Top="0" BorderBrush="White" Background="White" HorizontalScrollBarVisibility="Auto">
+                        <DataGrid.RowHeaderStyle>
+                            <Style TargetType="DataGridRowHeader">
+                                <Setter Property="Background" Value="#FFFFFF"/>
+                            </Style>
+                        </DataGrid.RowHeaderStyle>
+                        <DataGrid.Resources>
+                            <Style BasedOn="{StaticResource {x:Type DataGridColumnHeader}}" TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="Background" Value="#FFFFFF"/>
+                            </Style>
+                            <Style TargetType="{x:Type DataGridCell}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="{x:Null}" />
+                                        <Setter Property="Foreground" Value="Black" />
+                                        <Setter Property="BorderBrush" Value="{x:Null}" />
+                                        <Setter Property="BorderThickness" Value="0" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.Resources>
+                        <DataGrid.RowStyle>
+                            <StaticResource ResourceKey="StyDataGridRow"/>
+                        </DataGrid.RowStyle>
+                        <DataGrid.Columns>
+                            <!-- Column 1-->
+                            <!--<DataGridTemplateColumn Width="36*" IsReadOnly="True" HeaderStyle="{StaticResource StyDataGridColumnHeader}">-->
+                            <DataGridTemplateColumn MinWidth="40" Width="40*" IsReadOnly="True" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="40" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel>
+                                            <CheckBox x:Name="ChkBatch" Click="ChkBatch_Click" Style="{StaticResource ResourceKey=myRedCheckboxStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Border HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <DockPanel>
+                                                <CheckBox IsChecked="{Binding IsSelected}" Click="CheckBox_Click" Style="{StaticResource ResourceKey=myRedCheckboxStyle}"/>
+                                            </DockPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 2-->
+                            <DataGridTextColumn  MinWidth="50" Width="50*" IsReadOnly="True" ElementStyle="{DynamicResource StyDataGridColumnTextBlock}" Binding="{Binding No}" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTextColumn.Header>
+                                    <Border Width="50" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <Button  x:Name="BtnSortNo" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="No"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <!-- Column 3-->
+                            <DataGridTextColumn  MinWidth="120" Width="120*" IsReadOnly="True" ElementStyle="{DynamicResource StyDataGridColumnTextBlock}" Binding="{Binding CmpAndGrpName}" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTextColumn.Header>
+                                    <Border Width="120" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+                                            <Button x:Name="BtnSortADGroup" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="캠페인 광고그룹"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <!-- Column 4-->
+                            <DataGridTemplateColumn  MinWidth="115" Width="115*" IsReadOnly="True" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="120" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10">
+                                            <Button  x:Name="BtnSortKeyword" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="키워드"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Border HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10" >
+                                            <DockPanel>
+                                                <TextBlock Text="{Binding Keyword}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}"/>
+                                                <Button Content="{Binding Status}" Background="#FFDDDDDD" Visibility="Collapsed"/>
+                                                <Control Focusable="False">
+                                                    <Control.Template>
+                                                        <ControlTemplate>
+                                                            <!-- content -->
+                                                            <Button x:Name="BtnGreenStopBadge" Margin="0,0,0,0" />
+                                                            <!-- triggers -->
+                                                            <ControlTemplate.Triggers>
+                                                                <DataTrigger Binding="{Binding Status}" Value="중지">
+                                                                    <Setter TargetName="BtnGreenStopBadge" Property="Style" Value="{StaticResource StyGreenStopBadge}"/>
+                                                                    <Setter Property="Margin" Value="3,0,0,0"/>
+                                                                </DataTrigger>
+                                                            </ControlTemplate.Triggers>
+                                                        </ControlTemplate>
+                                                    </Control.Template>
+                                                </Control>
+                                            </DockPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 5-->
+                            <DataGridTextColumn  MinWidth="90" Width="90*" IsReadOnly="True" ElementStyle="{DynamicResource StyDataGridColumnTextBlock}" Binding="{Binding AverRank}" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTextColumn.Header>
+                                    <Border Width="90" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0">
+                                            <Button x:Name="BtnSortAverRank" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="PC/모바일
+                                                       평균순위" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <!-- Column 6-->
+                            <DataGridTemplateColumn  MinWidth="100" Width="100*" IsReadOnly="True" CanUserSort="True" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="100" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,0">
+                                            <Button x:Name="BtnSortAutoBidYN" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="자동입찰" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Border HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0">
+                                            <DockPanel>
+                                                <Button Content="{Binding AutoBidYN}" Click="BtnAutoBid_Click"  Visibility="Collapsed" />
+                                                <!--<Button x:Name="BtnAutoBid" Style="{Binding RelativeSource=, StaticResource StyGrayAutoBidToggleBtn}" Click="BtnAutoBid_Click" />-->
+                                                <!-- resources -->
+                                                <Control Focusable="False">
+                                                    <Control.Template>
+                                                        <ControlTemplate>
+                                                            <!-- content -->
+                                                            <Button x:Name="BtnToggleAutoBid" Click="BtnAutoBid_Click" HorizontalAlignment="Left"/>
+                                                            <!-- triggers -->
+                                                            <ControlTemplate.Triggers>
+                                                                <DataTrigger Binding="{Binding AutoBidYN}" Value="ON">
+                                                                    <Setter TargetName="BtnToggleAutoBid" Property="Style" Value="{StaticResource StyRedAutoBidToggleBtn}"/>
+                                                                </DataTrigger>
+                                                                <DataTrigger Binding="{Binding AutoBidYN}" Value="OFF">
+                                                                    <Setter TargetName="BtnToggleAutoBid" Property="Style" Value="{StaticResource StyGrayAutoBidToggleBtn}"/>
+                                                                </DataTrigger>
+                                                            </ControlTemplate.Triggers>
+                                                        </ControlTemplate>
+                                                    </Control.Template>
+                                                </Control>
+                                                <!--<Image Source="{Binding Converter={StaticResource AutoBidOnOffToggleBtn}}"/>-->
+                                            </DockPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 7-->
+                            <DataGridTemplateColumn  MinWidth="150" Width="150*" IsReadOnly="True" CanUserSort="True" CellTemplate="{StaticResource DTCellCheckBox2}" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="95" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <Button  x:Name="BtnSortIsPCYN" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="입찰기준" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}"/>
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <!--<DataGridTemplateColumn.CellEditingTemplate>-->
+                                <!--<DataTemplate  >-->
+                                <!--<Border HorizontalAlignment="Center" VerticalAlignment="Center">-->
+                                <!--<DockPanel>-->
+                                <!--<Button Content="{Binding AutoBidYN}" Click="BtnAutoBid_Click" />-->
+                                <!--<Image Name="AutoBidYNImg" Source="Resources/images/grid/off_radio.png"/>-->
+                                <!--</DockPanel>-->
+                                <!--</Border>-->
+                                <!--</DataTemplate>-->
+                                <!--</DataGridTemplateColumn.CellEditingTemplate>-->
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 8-->
+                            <DataGridTemplateColumn  MinWidth="80" Width="80*" IsReadOnly="True" CanUserSort="True" CellTemplate="{StaticResource DTCellTextBox1}" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="80" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+                                            <Button x:Name="BtnSortTargetRank" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="목표 순위"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 9-->
+                            <DataGridTemplateColumn  MinWidth="120" Width="120*" IsReadOnly="True" CanUserSort="True" CellTemplate="{StaticResource DTCellTextBox2}" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="120" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+                                            <Button x:Name="BtnSortMaxBid" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="최대/현재 입찰가" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 9.5-->
+                            <DataGridTemplateColumn  MinWidth="100" Width="100*" IsReadOnly="True" CanUserSort="True" CellTemplate="{StaticResource DTCellTextBox3}" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="60" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                                            <Button x:Name="BtnSortAddMoney" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="추가액"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 10-->
+                            <DataGridTemplateColumn  MinWidth="60" Width="60*" IsReadOnly="True" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="60" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <TextBlock Text="개별변경" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate  >
+                                        <Border HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <DockPanel>
+                                                <Button x:Name="BtnChageSelected" Style="{StaticResource StyBidChangeBtn}" Click="BtnChangeSelected_Click" BorderBrush="{x:Null}" Background="{x:Null}" HorizontalContentAlignment="Center" />
+                                            </DockPanel>
+                                        </Border>
+                                        <!--<DataTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="BtnChageSelected" Property="Background" Value="{x:Null}"/>
+                                        </Trigger>
+                                    </DataTemplate.Triggers>-->
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <!-- Column 11-->
+                            <DataGridTextColumn  MinWidth="60" Width="60*" IsReadOnly="True" ElementStyle="{DynamicResource StyDataGridColumnTextBlock}" Binding="{Binding ExpoCnt}" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTextColumn.Header>
+                                    <Border Width="60" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+                                            <Button x:Name="BtnSortExpoCnt" Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="노출수" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <!-- Column 11-->
+                            <DataGridTextColumn  MinWidth="60" Width="60*" IsReadOnly="True" ElementStyle="{DynamicResource StyDataGridColumnTextBlock}" Binding="{Binding ClickCnt}" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTextColumn.Header>
+                                    <Border Width="60" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5">
+                                            <Button x:Name="BtnSortClickCnt"  Content="  "  Command="{Binding DataContext.SortData, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Width="8" Height="12" Margin="5,2,0,0" Click="SortButton_Click" >
+                                                <Button.Background>
+                                                    <ImageBrush ImageSource="updown.png"/>
+                                                </Button.Background>
+                                            </Button>
+                                            <TextBlock Text="클릭수" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" />
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTextColumn.Header>
+                            </DataGridTextColumn>
+
+                            <!-- Column 11-->
+                            <DataGridTemplateColumn  MinWidth="70" Width="70*" IsReadOnly="True" CanUserSort="False" HeaderStyle="{StaticResource StyDataGridColumnHeader}">
+                                <DataGridTemplateColumn.Header>
+                                    <Border Width="70" Height="40" HorizontalAlignment="Center">
+                                        <DockPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <TextBlock Text="입찰로그" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Background="{x:Null}" Margin="0,0,15,0"/>
+                                        </DockPanel>
+                                    </Border>
+                                </DataGridTemplateColumn.Header>
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate  >
+                                        <Border HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <DockPanel>
+                                                <Button x:Name="BtnViewBidLog" Style="{StaticResource StyViewBidLogBtn}" Click="BtnViewBidLog_Click" Background="{x:Null}" BorderBrush="{x:Null}" Margin="0,0,15,0"/>
+                                            </DockPanel>
+                                        </Border>
+                                        <!--<DataTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="BtnViewBidLog" Property="Background" Value="{x:Null}"/>
+                                        </Trigger>
+                                    </DataTemplate.Triggers>-->
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Canvas>
+                <!--                                                                  여기서부터 라벨                                                    -->
+                <Border Grid.Row="1" Grid.ColumnSpan="2">
+                    <Label x:Name="LblSyncInfo" Grid.Row="1" Content="" Padding="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" DockPanel.Dock="Top" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,20,0"/>
+                </Border>
+
+            </Grid>
+
+        </DockPanel>
+    </Border>
+    <!--</Grid>-->
+</Window>

@@ -1,0 +1,119 @@
+﻿<Window x:Class="ADbid.subWindows.WinLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ADbid.subWindows"
+        mc:Ignorable="d"
+        Title="WinLogin" Style="{DynamicResource StyWIndow}" Width="380" Height="610" ResizeMode="NoResize" MouseLeftButtonDown="SettingWindow_MouseLeftButtonDown" MouseLeftButtonUp="SettingWindow_MouseLeftButtonUp" >
+    <Border BorderBrush="#FF4E5D6A" BorderThickness="10" CornerRadius="10" Width="360" Height="590" >
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="10" Direction="315" Opacity="0.5" RenderingBias="Quality" ShadowDepth="2"/>
+        </Border.Effect>
+        <DockPanel Name="SettingPanel" Margin="0" RenderTransformOrigin="0.5,0.5">
+            <DockPanel.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF5FC03B" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.OpacityMask>
+            <!-- 맨 위에 타이틀바 -->
+            <Border Name="TitleBar" Style="{DynamicResource StyTitleBar}" Background="#FF4C5D6B" VerticalAlignment="Top">
+                <DockPanel>
+                    <Button x:Name="BtnClose"  Style="{DynamicResource StyBtnClose}" Click="BtnClose_Click" FontSize="18" Width="15" Height="15" Margin="4,0,8,0" />
+                    <Button x:Name="BtnMin"  Style="{DynamicResource StyBtnMin}" Click="BtnMin_Click" FontSize="18" Width="15" Height="15" Margin="4,0" />
+                    <Label Content="|" Height="30" HorizontalAlignment="Right" DockPanel.Dock="Right" VerticalAlignment="Center" Foreground="#FF677581" Margin="4,0"/>
+                    <Button x:Name="BtnSetting"  Style="{DynamicResource StyleBtnLoginOpt}" Click="BtnSetting_Click" FontSize="18" Width="15" Height="15" Padding="0,0,4,0" />
+                </DockPanel>
+            </Border>
+            <Grid Height="235" VerticalAlignment="Top" Width="340" Background="#FF4E5D6A" Margin="0,0,0,0">
+                <Image Source="/ADbid;component/big_logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Height="93" VerticalAlignment="Top" HorizontalAlignment="Center" Width="93" Margin="0,45,0,0" />
+                <Label Content="애드비드" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Foreground="White" FontFamily="Malgun Gothic"/>
+                <Label Content="네이버 검색광고 자동입찰" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Center" FontSize="13" FontWeight="Bold" Foreground="#89A"/>
+            </Grid>
+            <Grid DockPanel.Dock="Top" VerticalAlignment="Bottom" Margin="-340,0,0,-540" Height="335" Background="#FF4E5D6A">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Grid>
+                        <TextBox Name="TxtLoginID" Style="{DynamicResource StyTextBox}" Width="270"  HorizontalAlignment="Center" Height="40" GotFocus="TxtLoginID_GotFocus" LostFocus="TxtLoginID_LostFocus" VerticalContentAlignment="Center" KeyDown="TextBox_KeyDown" TextChanged="TextBox_TextChanged" Margin="0,0,0,5" VerticalAlignment="Bottom" PreviewKeyDown="TxtLoginID_PreviewKeyDown" BorderThickness="1,1,1,1" Padding="10"/>
+                        <TextBlock Name="TblID"  Text="아이디" IsHitTestVisible="False" VerticalAlignment="Center" Margin="50,5,0,0" HorizontalAlignment="Left">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Setter Property="Foreground" Value="Gray"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Text, ElementName=TxtLoginID}" Value="">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Grid>
+                        <PasswordBox Name="PwbBox"  Height="40" VerticalAlignment="Top" KeyDown="TextBox_KeyDown" HorizontalAlignment="Center" Width="270" GotFocus="PwbBox_GotFocus" LostFocus="PwbBox_LostFocus" VerticalContentAlignment="Center" BorderBrush="#FFDEDEDE" Margin="0,-5,0,0" PasswordChanged="PwbBox_PasswordChanged" RenderTransformOrigin="0.5,0.5" ToolTip="" Padding="10"/>
+                        <TextBlock Name="TblPW"  Text="비밀번호" IsHitTestVisible="False" VerticalAlignment="Center" Margin="50,0,0,23" HorizontalAlignment="Left" Foreground="Gray">
+                        </TextBlock>
+                    </Grid>
+                </DockPanel>
+                <DockPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Button x:Name="BtnLogin" Width="270" Click="BtnLogin_Click" Foreground="White" BorderBrush="LightGray" Content="로그인" Background="LightGray" Margin="0,-40,0,0" Height="45" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="1"/>
+                            </Style>
+                        </Button.Resources>
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate>
+                                            <Border x:Name="BtnLoginBorder" BorderBrush="red" Background="#FFEE4036" BorderThickness="1" >
+                                                <Label Content="로그인" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#fff" FontWeight="Bold"/>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger  Property="IsMouseOver" Value="True">
+                                                    <Setter TargetName="BtnLoginBorder" Property="Background" Value="Silver"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Text, ElementName=TxtLoginID}" Value="">
+                                        <Setter Property="IsEnabled" Value="False" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </DockPanel>
+                <DockPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                    <CheckBox  Name="ChkAutoLogin"  Style="{DynamicResource StyRedChkBoxDefault}" Margin="45,4,0,30" Content=" 자동 로그인" Width="90" Foreground="#FFC2D0DB" FontSize="13"/>
+                    <CheckBox  Name="ChkIDSave"  Style="{DynamicResource StyRedChkBoxDefault}" Margin="45,4,0,30" Content=" ID 기억하기" Width="90" Foreground="#FFC2D0DB" FontSize="13"/>
+                </DockPanel>
+                <DockPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+                    <Label Name="LblChkLoginInfo" Content="계정 또는 비밀번호를 다시 확인해 주세요." Style="{DynamicResource StyLblContent1}" Background="{x:Null}" HorizontalAlignment="Center" Margin="0" Foreground="Red" Opacity="0" HorizontalContentAlignment="Center"/>
+                </DockPanel>
+                <DockPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2">
+                    <DockPanel Margin="0,-23.6,0,23.6" Width="231.608">
+                        <Button x:Name="BtnSignUp" Content="애드비드 회원가입" Width="109" Click="BtnSignUp_Click" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFA1B2C0" HorizontalContentAlignment="Stretch" />
+                        <Label Content="|" Style="{DynamicResource StyLblContent1}" Background="{x:Null}" HorizontalAlignment="Center" Margin="0,19.302" Foreground="#FFA1B2C0" Height="16" FontSize="11"/>
+                        <Button  x:Name="BtnSearchIDPW" Content="아이디/비밀번호 찾기" Click="BtnSearchIDPW_Click" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFA1B2C0" HorizontalContentAlignment="Left" Padding="1" HorizontalAlignment="Left" />
+                    </DockPanel>
+                </DockPanel>
+            </Grid>
+            <DockPanel Height="108" LastChildFill="False" Margin="0,0,0,-86.96" VerticalAlignment="Top" Width="359" d:IsHidden="True"/>
+
+        </DockPanel>
+    </Border>
+</Window>

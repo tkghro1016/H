@@ -1,0 +1,1219 @@
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.csprojResolveAssemblyReference.cache
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\WPF\Adbid\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\WPF\Adbid\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.Cache
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\WPF\Adbid\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\OutSrcing\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\OutSrcing\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\OutSrcing\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\WPF\Yeti\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\WPF\Yeti\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\WPF\Yeti\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\App.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Git\ADBid\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\ADbid.exe.config
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.IO.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.Runtime.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.IO.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.Runtime.xml
+D:\Programming\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\Programming\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\App.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Coding\GitHub\NAD\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\ADbid.exe.config
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.IO.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.Runtime.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.IO.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.Runtime.xml
+D:\혜리\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\App.g.cs
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\App.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\혜리\NAD\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\NAD\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\ruda9\OneDrive\문서\카카오톡 받은 파일\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.exe.config
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.IO.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Runtime.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.IO.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Runtime.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\RestSharp.dll
+D:\Programming\NAD\NAD_2106231645\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\NAD_202106281140\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\ADbid.exe.config
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\RestSharp.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.IO.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.Runtime.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\RestSharp.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.IO.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.Runtime.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\App.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Download\adbid_winapp-master\adbid_winapp-master_202107031325\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Coding\GitHub\NAD\ADbid\ADbid\bin\Debug\RestSharp.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.exe.config
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.exe
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.pdb
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\RestSharp.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.IO.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Runtime.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\RestSharp.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.IO.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Runtime.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\WinMain.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\App.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\App.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\WinMain.baml
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.g.resources
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.exe
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.pdb
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+D:\Programming\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\Downloads\adbid_winapp-master_210718\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_winapp_2107201135\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\ruda9\OneDrive\바탕 화면\adbid_winapp-master\adbid_winapp-master\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\hanyo\Git\NAD3\AdBid\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\hanyo\Git\NAD4\AdBid\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_app\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\E1-10990K-4\workspace\adbid_app_test\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\ruda9\Downloads\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Coding\GitHub\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\hanyo\Git\adbid_app-main\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.AssemblyReference.cache
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\이루다\Documents\카카오톡 받은 파일\adbid_app-main\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csprojAssemblyReference.cache
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\App.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Coding\GitHub\adbid_app-main2\ADbid\ADbid\obj\Debug\ADbid.pdb
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\ADbid.exe.config
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\ADbid.exe
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\ADbid.pdb
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\RestSharp.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.IO.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.Runtime.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.Threading.Tasks.dll
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\RestSharp.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.IO.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.Runtime.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\bin\Debug\System.Threading.Tasks.xml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.csproj.App.config
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.csproj.ResolveComReference.cache
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\Resources\styles\styles.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinSetting.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\Resources\styles\styles.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinLogin.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinMessage.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinSetting.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\WinMain.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\App.g.cs
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.cache
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid_MarkupCompile.lref
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\App.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinBatchSelect.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinBidLog.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinLogin.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinMessage.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\subWindows\WinToastMsg.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\WinMain.baml
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.g.resources
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.Properties.Resources.resources
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.csproj.GenerateResource.cache
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.csproj.CoreCompileInputs.cache
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.csproj.CopyComplete
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.exe
+C:\Users\hanyo\Git\adbid_app-main2 (2)\ADbid\ADbid\obj\Debug\ADbid.pdb
